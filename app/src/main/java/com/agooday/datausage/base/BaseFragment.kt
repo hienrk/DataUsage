@@ -29,7 +29,9 @@ abstract class BaseFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        mainViewModel = ViewModelProviders.of(activity!!).get(MainViewModel::class.java)
+        activity?.let {
+            mainViewModel = ViewModelProviders.of(it).get(MainViewModel::class.java)
+        }
         this.tag?.let {
             mainViewModel.showTitleEvent.value = createNewFragmentForTag(it)
             mainViewModel.showBackButtonEvent.value = !isRoot(it)
