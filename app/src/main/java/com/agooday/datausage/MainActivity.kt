@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         configActionBar()
+        showFragment(AppBundle(Constant.DATA_USAGE_TAG,null))
     }
 
 
@@ -51,7 +52,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun createNewFragmentForTag(tag: String): Fragment? {
         when (tag) {
-            Constant.HOME_TAG -> return DataUsageFragment()
+            Constant.DATA_USAGE_TAG -> return DataUsageFragment()
             Constant.ABOUT_TAG -> return AboutFragment()
         }
         return null

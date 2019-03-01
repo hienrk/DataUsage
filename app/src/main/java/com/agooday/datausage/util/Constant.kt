@@ -2,7 +2,7 @@ package com.agooday.datausage.util
 
 object Constant {
     const val INTERSTITIAL_ADS_ID = "ca-app-pub-4064594014466732/7726604790"
-    const val HOME_TAG = "HOME_TAG_ROOT"
+    const val DATA_USAGE_TAG = "DATA_USAGE_TAG_ROOT"
     const val ABOUT_TAG = "ABOUT_TAG"
     const val LEFT_TAG = "LEFT_TAG"
     const val RIGHT_TAG = "RIGHT_TAG"

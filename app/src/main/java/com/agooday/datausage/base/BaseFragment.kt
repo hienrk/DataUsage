@@ -40,7 +40,7 @@ abstract class BaseFragment : Fragment() {
 
     private fun createNewFragmentForTag(tag: String): String? {
         when (tag) {//update title?
-            Constant.HOME_TAG -> return getString(R.string.app_name)
+            Constant.DATA_USAGE_TAG -> return getString(R.string.app_name)
             Constant.ABOUT_TAG -> return getString(R.string.about)
         }
         return null

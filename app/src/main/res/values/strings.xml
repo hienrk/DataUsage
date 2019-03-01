@@ -1,4 +1,14 @@
 <resources>
-    <string name="app_name">DataUsage</string>
+    <string name="app_name">Data Usage</string>
     <string name="about">About</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="settings">Settings</string>
+    <string name="data_tracker">Data Tracker</string>
+    <string name="mobile_data_limits">Mobile Data Limits</string>
+	<string name="daily">Daily</string>
+	<string name="weekly">Weekly</string>
+	<string name="monthly">Monthly</string>
+	<string name="total">Total</string>
+	<string name="wifi">WiFi</string>
+	<string name="mobile">Mobile</string>
 </resources>
